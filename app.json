@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Allanur&Jemile",
+    "slug": "allanur-jemile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#12101c"
+    },
+    "android": {
+      "package": "com.allanurjemile.perfume",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#6d28d9"
+      },
+      "permissions": [
+        "CALL_PHONE",
+        "SEND_SMS",
+        "READ_MEDIA_IMAGES",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.allanurjemile.perfume"
+    }
+  }
+}
